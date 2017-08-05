@@ -1,0 +1,29 @@
+.about{
+  &--img{
+    max-width: 400px;
+    max-height: 400px;
+  }
+  &--text{
+    margin-left: 10px;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 15px;
+
+    &--projects{
+      margin-left: 10px;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+    &--blog{
+      margin-left: 10px;
+      font-weight: 300;
+      font-size: 1.0rem;
+      color: $mainGrey;
+      padding: 0;
+    }
+
+  }
+  &--title{
+    margin-left: 10px;
+  }
+}

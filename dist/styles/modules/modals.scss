@@ -1,0 +1,11 @@
+.modal{
+  &__description{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.65;
+    }
+    &-footer:hover{
+      cursor: pointer;
+    }
+}

@@ -1,0 +1,32 @@
+.parallaxs{
+    background: url('/images/labtop.jpg') repeat fixed 100%;
+    &--inner{
+        padding-top: 15%;
+        padding-bottom: 15%;
+        background: rgba(62, 79, 105, 0.9);
+
+    }
+
+    &__text-content{
+        top:50%;
+        transform: translateY(30%);
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__title{
+        font-weight: 200;
+        color: #FFF;
+        font-size: 4.9rem;
+        margin: 0;
+        font-family: 'Roboto';
+    }
+
+    &__subtitle{
+        font-weight: 200;
+        color: #FFF;
+        font-size: 1.4rem;
+        margin: 0;
+    }
+}

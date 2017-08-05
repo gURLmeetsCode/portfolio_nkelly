@@ -1,25 +1,20 @@
 {
-  "name": "react-node-starter",
+  "name": "react-portfolio",
   "version": "0.2.0",
-  "description": "react starter",
+  "description": "react-portfolio",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "webpack-dev-server --hot --inline",
-    "postinstall": "webpack -p --config webpack.prod.config.js"
+    "dev": "webpack-dev-server --hot --inline"
   },
-  "author": "Daniel Zuzevich",
-  "license": "ISC",
+  "author": "Natasha Kelly",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react-redux": "^5.0.2",
-    "react-router": "^2.0.1",
-    "redux": "^3.6.0",
-    "redux-form": "^6.8.0",
-    "redux-thunk": "^2.2.0"
+    "react-router": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
@@ -39,5 +34,8 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^2.5.0",
     "webpack-hot-middleware": "^2.10.0"
+  },
+  "engines":{
+    "node": "6.11.1"
   }
 }

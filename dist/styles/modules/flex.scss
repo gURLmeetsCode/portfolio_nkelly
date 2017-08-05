@@ -1,0 +1,46 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+  &--column{
+    display: flex;
+  }
+  &--colored{
+    background: $mainWhite;
+  }
+}
+
+.flex-item {
+  background: $mainPurple;
+  padding: 5px;
+  width: 280px;
+  height: 320px;
+  margin-top: 10px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+
+  &--projects{
+    background: $mainPurple;
+    padding: 5px;
+    width: 350px;
+    height: 290px;
+    margin-top: 10px;
+
+    color: white;
+    font-weight: bold;
+  }
+
+
+}
+
+
+.flex--content{
+  display: flex;
+}

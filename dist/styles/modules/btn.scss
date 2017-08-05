@@ -1,0 +1,35 @@
+
+
+.btns{
+    list-style: none;
+    border-style: solid;
+    border-color: $mainWhite;
+    border-width: thin;
+    color: #FFF;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+    transition: background .5s ease;
+
+    &--small{
+    font-size: 1rem;
+    padding: .75rem .7rem;
+    margin-top: 10px;
+    }
+
+    &--small:hover{
+      background: $mainPurple;
+      border-color: $mainPurple;
+
+    }
+
+    &--welcome{
+      list-style: none;
+      color: #FFF;
+      text-decoration: none;
+      padding: .75rem 1.2rem;
+      display: inline-block;
+      transition: background .5s ease;
+    }
+
+}

@@ -1,0 +1,15 @@
+.blog{
+  transition: all .3s ease-in-out;
+
+  &--content{
+    background: $mainWhite;
+  }
+
+  &--title{
+    font-size: 1.9rem;
+  }
+
+  &--media:hover{
+    transform: scale(1.1);
+  }
+}

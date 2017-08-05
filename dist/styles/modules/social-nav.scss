@@ -1,0 +1,30 @@
+
+.social-nav{
+  &--welcome{
+    list-style-type: none;
+    display: inline;
+  }
+  &__row{
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    margin-top: 65px;
+  }
+
+  &__row--footer{
+      display: flex;
+      list-style-type:none;
+      margin-top: 65px;
+      justify-content: center;
+  }
+
+  &__photo{
+    width: 30px;
+	  height: 30px;
+  }
+
+}
+
+  .social-btns{
+    text-align: center;
+}
