@@ -3,7 +3,7 @@ var path = require('path')
 var autoprefixer = require('autoprefixer')
 
 module.exports = {
-  entry: ['./src/index'],
+  entry: ['./src/app'],
   module: {
     loaders: [
       {

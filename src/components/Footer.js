@@ -18,7 +18,7 @@ export default class Footer extends React.Component{
                   <li><a href={"https://medium.com/@gURLmeetsCode"}><img src="/images/medium-logo-688.png" className="social-nav__photo" /></a></li>
                 </div>
               </div>
-              <p><span className="site-footer__text">Made with Love by Natasha Kelly.</span></p>
+              <p><span className="site-footer__text">Made with Love by Natasha Kelly</span></p>
             </div>
         </div>
     );

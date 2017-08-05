@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "react-portfolio",
   "main": "server.js",
   "scripts": {
@@ -8,12 +8,18 @@
     "start": "node server.js",
     "dev": "webpack-dev-server --hot --inline"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gURLmeetsCode/portfolio_nkelly.git"
+  },
   "author": "Natasha Kelly",
   "license": "MIT",
   "dependencies": {
+    "ajv": "^5.2.2",
     "express": "^4.14.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
+    "react-materialize": "^1.0.6",
     "react-router": "^2.0.1"
   },
   "devDependencies": {
@@ -35,7 +41,7 @@
     "webpack-dev-server": "^2.5.0",
     "webpack-hot-middleware": "^2.10.0"
   },
-  "engines":{
+  "engines": {
     "node": "6.11.1"
   }
 }
